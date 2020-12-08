@@ -41,7 +41,12 @@ public class DebugLogInterceptor implements Interceptor {
 //    private final Gson gson = new Gson();
 
     public DebugLogInterceptor() {
-        this(message -> Platform.get().log(Platform.WARN, message, null));
+        this(new Logger() {
+            @Override
+            public void log(String message) {
+                Platform.get().log(Platform.WARN, message, null);
+            }
+        });
     }
 
     public DebugLogInterceptor(Logger logger) {
