@@ -7,7 +7,7 @@ apply plugin: 'com.jakewharton.butterknife'
 apply plugin: 'kotlin-kapt'
 
 apply plugin: 'com.github.dcendents.android-maven'
-
+group='com.github.chenfeng9501'
 android {
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
