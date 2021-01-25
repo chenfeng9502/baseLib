@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 自定义圆形图片 CircleImageView -->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <!--自定义相对布局    -->
+    <declare-styleable name="InfoRelativeLayoutView">
+        <attr name="leftImgSize" format="dimension" />
+        <attr name="leftImgBg" format="reference" />
+        <attr name="leftImgLeftMargin" format="dimension" />
+        <attr name="leftImgVisible" format="boolean" />
+        <attr name="leftCheckBoxSize" format="dimension" />
+        <attr name="leftCheckBoxTextSize" format="dimension" />
+        <attr name="leftCheckBoxTextColor" format="color" />
+        <attr name="leftCheckBoxText" fCircleImageViewormat="string" />
+        <attr name="leftCheckBoxBg" format="reference" />
+        <attr name="leftCheckBoxLeftMargin" format="dimension" />
+        <attr name="leftCheckBoxVisible" format="boolean" />
+        <attr name="tipText" format="string" />
+        <attr name="tipTextSize" format="dimension" />
+        <attr name="tipTextColor" format="color" />
+        <attr name="tipTextVisible" format="boolean" />
+        <attr name="infoText" format="string" />
+        <attr name="infoTextSize" format="dimension" />
+        <attr name="infoTextColor" format="color" />
+        <attr name="infoTextRightDrawable" format="reference" />
+        <attr name="infoTextLeftMargin" format="dimension" />
+        <attr name="rightText" format="string" />
+        <attr name="rightTextSize" format="dimension" />
+        <attr name="rightTextColor" format="color" />
+        <attr name="rightTextRightMargin" format="dimension" />
+        <attr name="leftRidhtMargin" format="dimension" />
+        <attr name="rightImgSize" format="dimension" />
+        <attr name="rightImgBg" format="reference" />
+        <attr name="rightImgVisible" format="boolean" />
+        <attr name="rightImgRightMargin" format="dimension" />
+        <attr name="rightEdtRightMargin" format="dimension" />
+        <attr name="rightEdtHint" format="string" />
+        <attr name="rightEdtHintColor" format="color" />
+        <attr name="rightEdtTextSize" format="dimension" />
+        <attr name="rightEdtTextColor" format="color" />
+        <attr name="rightEdtVisible" format="boolean" />
+        <attr name="rightEdtEnable" format="boolean" />
+        <attr name="bottomLineMarginLeft" format="boolean" />
+        <attr name="bottomLineVisible" format="boolean" />
+    </declare-styleable>
+
+    <!--自定义toolbar-->
+    <declare-styleable name="TitleBar">
+        <attr name="leftTextViewVisible" format="boolean" />
+        <attr name="leftTextViewText" format="string" />
+        <attr name="leftImageViewVisible" format="boolean" />
+        <attr name="titleTextViewText" format="string" />
+        <attr name="titleTextViewRightDrawableVisible" format="boolean" />
+        <attr name="vicetitleTextViewRightDrawableVisible" format="boolean" />
+        <attr name="viceTitleTextViewText" format="string" />
+        <attr name="viceTitleTextViewVisible" format="boolean" />
+        <attr name="rightTextViewText" format="string" />
+        <attr name="rightTextViewVisible" format="boolean" />
+        <attr name="rightImageViewVisible" format="boolean" />
+        <attr name="rightImageViewResId" format="integer" />
+    </declare-styleable>
+
+</resources>

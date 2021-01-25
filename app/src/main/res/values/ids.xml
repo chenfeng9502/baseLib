@@ -1,0 +1,9 @@
+<resources>
+    <item type="id" name="infoView_tipText"></item>
+    <item type="id" name="infoView_infoText" />
+    <item type="id" name="info_right_edt" />
+    <item type="id" name="leftImageViewId" />
+    <item type="id" name="leftCheckBoxViewId" />
+    <item type="id" name="rightImageViewId" />
+    <item type="id" name="rotateView_leftImageView" />
+</resources>
