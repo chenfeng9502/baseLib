@@ -12,7 +12,7 @@ import com.tencent.tinker.lib.BuildConfig
  *
  * 用途：
  */
-class BaseApp : Application() {
+open class BaseApp : Application() {
 
 
     override fun onCreate() {
