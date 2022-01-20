@@ -17,6 +17,7 @@
         <attr name="leftCheckBoxTextSize" format="dimension" />
         <attr name="leftCheckBoxTextColor" format="color" />
         <attr name="leftCheckBoxText" format="string" />
+
         <attr name="leftCheckBoxBg" format="reference" />
         <attr name="leftCheckBoxLeftMargin" format="dimension" />
         <attr name="leftCheckBoxVisible" format="boolean" />
