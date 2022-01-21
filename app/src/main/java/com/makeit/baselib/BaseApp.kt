@@ -17,6 +17,7 @@ open class BaseApp : Application() {
 
     override fun onCreate() {
         super.onCreate()
+        app = this
         Bugly.init(this, buglyAppId, BuildConfig.DEBUG);
     }
 
