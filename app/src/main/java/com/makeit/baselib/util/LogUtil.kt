@@ -52,7 +52,7 @@ object LogUtil {
     //是否存log到sd卡
     private var savesd: Boolean = true
     //设置字节数
-    private const val CHUNK_SIZE = 100
+    private const val CHUNK_SIZE = 20000
     //设置文件存储目录
     private var logDir = ""
     //设置log文件大小 k
