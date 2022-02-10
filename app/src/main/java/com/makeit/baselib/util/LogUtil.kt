@@ -41,7 +41,7 @@ object LogUtil {
 
     private const val TOP_BORDER =
         "╔══════════════════════════════════════════════════════════════════════════════════════════════════════════"
-    private const val LEFT_BORDER = "║ "
+    private const val LEFT_BORDER = ""
     private const val BOTTOM_BORDER =
         "╚══════════════════════════════════════════════════════════════════════════════════════════════════════════"
 
