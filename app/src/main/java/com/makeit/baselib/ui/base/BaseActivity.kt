@@ -22,10 +22,10 @@ abstract class BaseActivity : RxAppCompatActivity() {
         this.savedInstanceState = savedInstanceState
         rootView = View.inflate(this, getLayoutId(), null)
         setContentView(rootView)
+        ButterKnife.bind(this)
         initPresenter()
         initView()
         initData()
-        ButterKnife.bind(this)
         ActivityHelper.addActivity(this)
     }
 
